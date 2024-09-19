@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>图片展示</title>
+    <style>
+        /* 添加一些样式 */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            padding: 2em;
+            flex-direction: column;
+            width: 1200px;
+            margin: 0 auto;
+        }
+        .container {
+            display: flex;
+            align-items: flex-start;
+        }
+        img {
+            max-width: 1000px;
+            height: auto;
+        }
+        .caption {
+            font-size: 26px;
+            color: #333;
+            margin-top: 1em;
+            text-align: center;
+        }
+        .legend {
+            font-size: 10px;
+            color: #777;
+            margin-top: 0.5em;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-left: 20px;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .color-box {
+            width: 20px;
+            height: 20px;
+            margin-right: 0.5em;
+        }
+        .label {
+            font-size: 1em;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <!-- 标题 -->
+    <h1 class="caption">病毒地图</h1>
+    <div class="container">
+        <!-- 图片 -->
+        <img src="C:\Users\28273\Desktop\bird\MapData\map2.png" alt="描述性文字">
+        
+         <!-- 图例 -->
+         <div class="legend">
+            <h1>病毒科图例</h1>
+            <!-- Flaviviridae -->
+            <div class="legend-item">
+                <div class="color-box" style="background-color: rgba(255, 99, 71, 0.6);"></div>
+                <span class="label">Flaviviridae</span>
+            </div>
+
+            <!-- Peribunyaviridae -->
+            <div class="legend-item">
+                <div class="color-box" style="background-color: rgba(70, 130, 180, 0.6);"></div>
+                <span class="label">Peribunyaviridae</span>
+            </div>
+
+            <!-- Togaviridae -->
+            <div class="legend-item">
+                <div class="color-box" style="background-color: rgba(154, 205, 50, 0.6);"></div>
+                <span class="label">Togaviridae</span>
+            </div>
+
+            <!-- Reoviridae -->
+            <div class="legend-item">
+                <div class="color-box" style="background-color: rgba(138, 43, 226, 0.6);"></div>
+                <span class="label">Reoviridae</span>
+            </div>
+
+            <!-- Nairoviridae -->
+            <div class="legend-item">
+                <div class="color-box" style="background-color: rgba(255, 69, 0, 0.6);"></div>
+                <span class="label">Nairoviridae</span>
+            </div>
+
+            <!-- Phenuiviridae -->
+            <div class="legend-item">
+                <div class="color-box" style="background-color: rgba(32, 178, 170, 0.6);"></div>
+                <span class="label">Phenuiviridae</span>
+            </div>
+
+            <!-- Rhabdoviridae -->
+            <div class="legend-item">
+                <div class="color-box" style="background-color: rgba(255, 215, 0, 0.6);"></div>
+                <span class="label">Rhabdoviridae</span>
+            </div>
+
+            <!-- Orthomyxoviridae -->
+            <div class="legend-item">
+                <div class="color-box" style="background-color: rgba(220, 20, 60, 0.6);"></div>
+                <span class="label">Orthomyxoviridae</span>
+            </div>
+
+            <!-- Asfarviridae -->
+            <div class="legend-item">
+                <div class="color-box" style="background-color: rgba(50, 204, 50, 0.6);"></div>
+                <span class="label">Asfarviridae</span>
+            </div>
+
+            <!-- totivirus -->
+            <div class="legend-item">
+                <div class="color-box" style="background-color: rgba(255, 69, 0, 0.6);"></div>
+                <span class="label">totivirus</span>
+            </div>
+
+            <!-- Bunyaviridae -->
+            <div class="legend-item">
+                <div class="color-box" style="background-color: rgba(219, 112, 147, 0.6);"></div>
+                <span class="label">Bunyaviridae</span>
+            </div>
+
+            <!-- Poxviridae -->
+            <div class="legend-item">
+                <div class="color-box" style="background-color: rgba(123, 104, 238, 0.6);"></div>
+                <span class="label">Poxviridae</span>
+            </div>
+
+            <!-- Nodaviridae -->
+            <div class="legend-item">
+                <div class="color-box" style="background-color: rgba(70, 130, 180, 0.6);"></div>
+                <span class="label">Nodaviridae</span>
+            </div>
+
+            <!-- Sicilian phlebovirus -->
+            <div class="legend-item">
+                <div class="color-box" style="background-color: rgba(178, 34, 34, 0.6);"></div>
+                <span class="label">Sicilian phlebovirus</span>
+            </div>
+    </div>
+</body>
+</html>
